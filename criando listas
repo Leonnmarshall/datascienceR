@@ -1,0 +1,36 @@
+#As listas podem ser explicitamente criadas usando a função, list() , exemplo:
+x <- list(1, "a", TRUE, 1 + 4i)
+
+
+#resultado
+> x
+[[1]]
+[1] 1
+
+[[2]]
+[1] "a"
+
+[[3]]
+[1] TRUE
+
+[[4]]
+[1] 1+4i
+
+#Também podemos criar uma lista vazia de um comprimento pré-especificado com a função vector() , exemplo:
+x <- vector("list", length = 5)
+
+> x
+[[1]]
+NULL
+
+[[2]]
+NULL
+
+[[3]]
+NULL
+
+[[4]]
+NULL
+
+[[5]]
+NULL
