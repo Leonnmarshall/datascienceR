@@ -7,5 +7,11 @@ as.numeric(x)
 as.logical(x)
 as.character(x)
 
+# fique atentto pois às vezes, o R não consegue descobrir como coagir um objeto e isso pode resultar em ser produzido um erro dizendo: .NA, exemplo:
+x <- c("e", "f", "g")
+as.numeric(x)
+Warning: NAs introduced by coercion
+
+
 #espero ter ajudado
 #me siga no instagram @data_universeBR
